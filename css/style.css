@@ -1,0 +1,304 @@
+@font-face {
+  font-family: 'GothamRounded';
+  src: url(/vendor/fonts/GothamRounded-Bold.otf);
+  src: url(/vendor/fonts/GothamRounded-BoldItalic.otf);
+  src: url(/vendor/fonts/GothamRounded-Book.otf);
+  src: url(/vendor/fonts/GothamRounded-BookItalic.otf);
+  src: url(/vendor/fonts/GothamRounded-Light.otf);
+  src: url(/vendor/fonts/GothamRounded-LightItalic.otf);
+  src: url(/vendor/fonts/GothamRounded-Medium.otf);
+  src: url(/vendor/fonts/GothamRounded-MediumItalic.otf);
+  src: url(/vendor/fonts/GothamRoundedBold_21016.ttf);
+  src: url(/vendor/fonts/GothamRoundedBook_21018.ttf);
+  src: url(/vendor/fonts/GothamRoundedLight_21020.ttf);
+  src: url(/vendor/fonts/GothamRoundedMedium_21022.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: 'GothamRounded';
+}
+
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*column width*/
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-offset-0 {
+  margin-left: 0;
+}
+
+.col-offset-1 {
+  margin-left: 8.33%;
+}
+
+.col-offset-2 {
+  margin-left: 16.66%;
+}
+
+.col-offset-3 {
+  margin-left: 25%;
+}
+
+.col-offset-4 {
+  margin-left: 33.33%;
+}
+
+.col-offset-5 {
+  margin-left: 41.66%;
+}
+
+.col-offset-6 {
+  margin-left: 50%;
+}
+
+.col-offset-7 {
+  margin-left: 58.33%;
+}
+
+.col-offset-8 {
+  margin-left: 66.66%;
+}
+
+.col-offset-9 {
+  margin-left: 75%;
+}
+
+.col-offset-10 {
+  margin-left: 83.33%;
+}
+
+.col-offset-11 {
+  margin-left: 91.66%;
+}
+
+header {
+  background-image: url("/images/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+header nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+header nav ul li {
+  float: left;
+  width: 20%;
+}
+
+header nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 80px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+header nav ul li a:hover {
+  color: #16a085;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+header nav ul li a img {
+  margin-top: -30px;
+}
+
+header .title {
+  text-align: center;
+  color: white;
+}
+
+header .title h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-top: 200px;
+  margin-bottom: 15px;
+}
+
+header .title h3 {
+  letter-spacing: 3.5px;
+  font-weight: 300;
+}
+
+header .title button {
+  background-color: #16a085;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 20px 40px;
+  outline: none;
+  border-radius: 5px;
+  font-family: 'GothamRounded';
+  letter-spacing: 2px;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin-top: 35px;
+}
+
+header .title button:hover {
+  background-color: white;
+  color: #16a085;
+}
+
+header .icons {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20vh;
+}
+
+header .icons a {
+  color: white;
+  padding: 0 5px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+header .icons a:hover {
+  color: #16a085;
+}
+
+.second {
+  background-color: #f5f6f7;
+  height: 492px;
+  overflow-y: hidden;
+}
+
+.second .second_content {
+  margin-top: 80px;
+}
+
+.second .second_content h2 {
+  font-size: 18px;
+  color: #16a085;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.second .second_content p {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: #9c9d9d;
+}
+
+.second .second_content button {
+  background-color: #16a085;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 20px 40px;
+  outline: none;
+  border-radius: 5px;
+  font-family: 'GothamRounded';
+  letter-spacing: 2px;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin-top: 50px;
+}
+
+.second .second_content button:hover {
+  background-color: white;
+  color: #16a085;
+  border: 1px solid #16a085;
+}
+
+.second .second_photo figure {
+  position: relative;
+}
+
+.second .second_photo figure img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 62px;
+}
+/*# sourceMappingURL=style.css.map */

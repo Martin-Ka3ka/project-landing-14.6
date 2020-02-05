@@ -1,0 +1,27 @@
+// colors
+
+$color-basic-white:rgb(255, 255, 255);
+$color-basic-green:rgb(22, 160, 133);
+$color-basic-gray:rgb(245, 246, 247);
+$color-letters-gray:rgb(156, 157, 157);
+
+
+// mixins
+
+@mixin btn {
+    background-color: $color-basic-green;
+    color: $color-basic-white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px 40px;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'GothamRounded';
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .5s;
+
+
+}
