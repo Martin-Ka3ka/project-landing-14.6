@@ -301,4 +301,26 @@ header .icons a:hover {
   right: 0;
   top: 62px;
 }
+
+.third {
+  height: 50vh;
+  overflow-y: hidden;
+}
+
+.third .third_mobile figure {
+  position: relative;
+}
+
+.third .third_mobile figure img {
+  position: absolute;
+  left: 0;
+  top: 10vh;
+  max-width: 100%;
+  height: auto;
+}
+
+.fourth {
+  height: 50vh;
+  background-color: #f5f6f7;
+}
 /*# sourceMappingURL=style.css.map */

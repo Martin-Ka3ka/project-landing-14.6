@@ -1,0 +1,19 @@
+.third {
+    height: 50vh;
+    overflow-y: hidden;
+
+    .third_mobile {
+
+        figure {
+            position: relative;
+
+            img {
+                position: absolute;
+                left: 0;
+                top: 10vh;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
