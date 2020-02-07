@@ -1,6 +1,5 @@
 .third {
     height: 50vh;
-    overflow-y: hidden;
 
     .third_mobile {
 
@@ -13,6 +12,7 @@
                 top: 10vh;
                 max-width: 100%;
                 height: auto;
+                z-index: -1;
             }
         }
     }
@@ -22,17 +22,20 @@
         position: relative;
         width: 100%;
 
+
         .carousel-cell {
             width: 100%;
+            padding: 8px;
         }
+
     }
 
     .btn_style {
-        margin-top: 50px;
+        margin-top: 35px;
     }
 
     .flickity-prev-next-button {
-        top: 300px;
+        top: 270px;
     }
 
     .flickity-prev-next-button.next {

@@ -2,6 +2,7 @@
 
 $color-basic-white:rgb(255, 255, 255);
 $color-basic-green:rgb(22, 160, 133);
+$color-green:rgb(26, 188, 156);
 $color-basic-gray:rgb(245, 246, 247);
 $color-letters-gray:rgb(156, 157, 157);
 
@@ -42,5 +43,35 @@ $color-letters-gray:rgb(156, 157, 157);
         background-color: $color-basic-white;
         color: $color-basic-green;
         border: 1px solid $color-basic-green;
+    }
+}
+
+.box_style {
+    width: 240px;
+    text-align: left;
+    background-color: $color-green;
+    line-height: 50px;
+    letter-spacing: 2px;
+    padding-left: 25px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.btn_store {
+    width: 50px;
+    height: 50px;
+    color: $color-basic-white;
+    background-color: $color-basic-green;
+    border: none;
+    outline: none;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    font-size: 25px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .5s;
+
+    &:hover {
+        background-color: $color-green;
     }
 }

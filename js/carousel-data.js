@@ -1,7 +1,7 @@
 var data = [
     {
         title: 'Design',
-        content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, fuga delectus. Quibusdam facilis nostrum quo reprehenderit accusamus provident  error velit, praesentium eius suscipit ad tempore amet accusantium. Nulla commodi hic nostrum esse pariatur? Ad, vero.",
+        content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, fuga delectus. accusamus provident  error velit, praesentium eius suscipit ad tempore amet accusantium. Nulla  esse pariatur? Ad, vero.",
         btnTitle: 'Design'
     },
     {

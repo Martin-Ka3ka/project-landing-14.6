@@ -1,0 +1,40 @@
+.seventh {
+    background-color: $color-basic-gray;
+    padding-top: 80px;
+    padding-bottom: 110px;
+
+    .content_box {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: $color-letters-gray;
+            font-size: 12px;
+            line-height: 2;
+        }
+    }
+
+    .green_box {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        color: $color-basic-white;
+        text-transform: uppercase;
+
+        .apple {
+            display: flex;
+            padding-right: 50px;
+
+        }
+
+        .play {
+            display: flex;
+        }
+    }
+}

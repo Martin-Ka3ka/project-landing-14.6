@@ -1,0 +1,44 @@
+footer {
+    .info {
+        display: flex;
+        margin-bottom: 10px;
+
+        p:nth-child(1)::after {
+            content: "";
+            position: absolute;
+            width: 3px;
+            height: 15px;
+            background-color: $color-basic-green;
+            margin-left: 5px;
+        }
+
+        p:nth-child(2)::after {
+            content: "";
+            position: absolute;
+            width: 3px;
+            height: 15px;
+            background-color: $color-basic-green;
+            margin-left: 5px;
+        }
+
+        p {
+            padding-right: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 900;
+        }
+    }
+
+    .copyright {
+        letter-spacing: 1px;
+    }
+
+    .camera_icon {
+        text-align: right;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}

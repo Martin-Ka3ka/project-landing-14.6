@@ -1,0 +1,73 @@
+.fifthy {
+    height: 90vh;
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .subscribe {
+        text-align: center;
+        color: $color-basic-white;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-top: 35vh;
+
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 30px;
+
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+
+            input {
+                display: inline-block;
+                width: 282px;
+                height: 60px;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                font-size: small;
+                letter-spacing: 1px;
+                padding-left: 15px;
+                border: none;
+                outline: none;
+
+            }
+
+            button {
+                width: 60px;
+                height: 60px;
+
+                background-color: $color-basic-green;
+                border-bottom-right-radius: 5px;
+                border-top-right-radius: 5px;
+                border: none;
+                cursor: pointer;
+                transition: .4s;
+
+                span {
+                    color: $color-basic-white;
+                    transition: .4s;
+                }
+
+                &:hover span {
+                    transform: scale(1.8);
+                }
+
+                &:hover {
+                    background-color: $color-green;
+                }
+
+
+
+            }
+
+
+        }
+
+
+    }
+}
