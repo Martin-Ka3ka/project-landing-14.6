@@ -16,4 +16,26 @@
             }
         }
     }
+
+    .main-carousel {
+        margin-top: 80px;
+        position: relative;
+        width: 100%;
+
+        .carousel-cell {
+            width: 100%;
+        }
+    }
+
+    .btn_style {
+        margin-top: 50px;
+    }
+
+    .flickity-prev-next-button {
+        top: 300px;
+    }
+
+    .flickity-prev-next-button.next {
+        left: 50px;
+    }
 }

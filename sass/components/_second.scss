@@ -3,35 +3,11 @@
     height: 492px;
     overflow-y: hidden;
 
-    .second_content {
+    .second_content.card {
         margin-top: 80px;
 
-
-        h2 {
-            font-size: 18px;
-            color: $color-basic-green;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 12px;
-            line-height: 2;
-            letter-spacing: 1px;
-            color: $color-letters-gray;
-        }
-
-        button {
-            @include btn;
+        button.btn_style {
             margin-top: 50px;
-
-            &:hover {
-                background-color: $color-basic-white;
-                color: $color-basic-green;
-                border: 1px solid $color-basic-green;
-            }
-
         }
     }
 
@@ -47,9 +23,7 @@
                 top: 62px;
             }
 
-
         }
     }
-
 
 }

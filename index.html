@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project 14.6</title>
     <script src="https://kit.fontawesome.com/712aac8c1d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="vendor/Normalize.css">
+    <link rel="stylesheet" href="vendor/Flickity.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -31,7 +33,7 @@
                 <div class="title">
                     <h1>your life , a photo</h1>
                     <h3>print your life in a simple photo</h3>
-                    <button>get started</button>
+                    <button class="btn_style">get started</button>
                 </div>
                 <div class="icons">
                     <a href="#"><span class="fab fa-twitter"></span></a>
@@ -48,7 +50,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-4">
-                    <div class="second_content">
+                    <div class="second_content card">
                         <h2>Rappresent your life with a simple photo</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ex esse rem maxime molestiae
                             blanditiis
@@ -56,7 +58,7 @@
                             </strong> dolor? Blanditiis voluptate fugiat, nesciunt nihil impedit nemo
                             commodi distinctio ipsum eaque? Ipsum!
                         </p>
-                        <button>get started</button>
+                        <button class="btn_style">get started</button>
                     </div>
                 </div>
                 <div class="col-8">
@@ -89,9 +91,28 @@
             </div>
         </div>
     </section>
+
+    <!-- section fourth -->
     <section class="fourth">
 
     </section>
+
+    <!-- scripts js -->
+
+    <script src="js/carousel-data.js"></script>
+    <script id="template" type="x-tmpl-mustache">
+    <div class="carousel-cell">
+      <div class="card">
+        <h2 class="card-title">{{title}}</h2>
+        <p class="card-lead">{{content}}</p>
+        <button class="btn_style">{{btnTitle}}</button>
+      </div>
+    </div>
+  </script>
+
+    <script src="vendor/mustache.min.js"></script>
+    <script src="vendor/flickity.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

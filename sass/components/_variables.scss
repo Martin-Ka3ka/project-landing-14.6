@@ -6,9 +6,24 @@ $color-basic-gray:rgb(245, 246, 247);
 $color-letters-gray:rgb(156, 157, 157);
 
 
-// mixins
+.card {
+    h2 {
+        font-size: 18px;
+        color: $color-basic-green;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
 
-@mixin btn {
+    p {
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 1px;
+        color: $color-letters-gray;
+    }
+}
+
+.btn_style {
     background-color: $color-basic-green;
     color: $color-basic-white;
     border: none;
@@ -23,5 +38,9 @@ $color-letters-gray:rgb(156, 157, 157);
     cursor: pointer;
     transition: .5s;
 
-
+    &:hover {
+        background-color: $color-basic-white;
+        color: $color-basic-green;
+        border: 1px solid $color-basic-green;
+    }
 }

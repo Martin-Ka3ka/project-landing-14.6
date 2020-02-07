@@ -57,41 +57,25 @@ header {
             font-weight: 300;
         }
 
-        button {
-            @include btn;
+        button.btn_style {
             margin-top: 35px;
 
-            &:hover {
-                background-color: $color-basic-white;
-                color: $color-basic-green;
-            }
         }
     }
+}
 
-    .icons {
-        text-align: center;
-        font-size: 30px;
-        margin-top: 20vh;
+.icons {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20vh;
 
-        a {
-            color: $color-basic-white;
-            padding: 0 5px;
-            transition: .4s;
+    a {
+        color: $color-basic-white;
+        padding: 0 5px;
+        transition: .4s;
 
-            &:hover {
-                color: $color-basic-green;
-            }
+        &:hover {
+            color: $color-basic-green;
         }
     }
-
-
-
-
-
-
-
-
-
-
-
 }
