@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'GothamRounded';
-  src: url(/vendor/fonts/GothamRounded-Bold.otf);
-  src: url(/vendor/fonts/GothamRounded-BoldItalic.otf);
-  src: url(/vendor/fonts/GothamRounded-Book.otf);
-  src: url(/vendor/fonts/GothamRounded-BookItalic.otf);
-  src: url(/vendor/fonts/GothamRounded-Light.otf);
-  src: url(/vendor/fonts/GothamRounded-LightItalic.otf);
-  src: url(/vendor/fonts/GothamRounded-Medium.otf);
-  src: url(/vendor/fonts/GothamRounded-MediumItalic.otf);
-  src: url(/vendor/fonts/GothamRoundedBold_21016.ttf);
-  src: url(/vendor/fonts/GothamRoundedBook_21018.ttf);
-  src: url(/vendor/fonts/GothamRoundedLight_21020.ttf);
-  src: url(/vendor/fonts/GothamRoundedMedium_21022.ttf);
+  src: url(../vendor/fonts/GothamRounded-Bold.otf);
+  src: url(../vendor/fonts/GothamRounded-BoldItalic.otf);
+  src: url(../vendor/fonts/GothamRounded-Book.otf);
+  src: url(../vendor/fonts/GothamRounded-BookItalic.otf);
+  src: url(../vendor/fonts/GothamRounded-Light.otf);
+  src: url(../vendor/fonts/GothamRounded-LightItalic.otf);
+  src: url(../vendor/fonts/GothamRounded-Medium.otf);
+  src: url(../vendor/fonts/GothamRounded-MediumItalic.otf);
+  src: url(../vendor/fonts/GothamRoundedBold_21016.ttf);
+  src: url(../vendor/fonts/GothamRoundedBook_21018.ttf);
+  src: url(../vendor/fonts/GothamRoundedLight_21020.ttf);
+  src: url(../vendor/fonts/GothamRoundedMedium_21022.ttf);
 }
 
 * {
@@ -401,7 +401,7 @@ header .title button.btn_style {
 
 .fifthy {
   height: 90vh;
-  background-image: url(/images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
