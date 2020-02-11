@@ -17,8 +17,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -55,7 +54,6 @@ body {
   font-family: 'GothamRounded';
   letter-spacing: 2px;
   cursor: pointer;
-  -webkit-transition: .5s;
   transition: .5s;
 }
 
@@ -88,7 +86,6 @@ body {
   font-size: 25px;
   line-height: 50px;
   cursor: pointer;
-  -webkit-transition: .5s;
   transition: .5s;
 }
 
@@ -238,14 +235,12 @@ header nav ul li a {
   padding: 80px;
   font-weight: bold;
   letter-spacing: 2px;
-  -webkit-transition: .5s;
   transition: .5s;
 }
 
 header nav ul li a:hover {
   color: #16a085;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 header nav ul li a img {
@@ -283,7 +278,6 @@ header .title button.btn_style {
 .icons a {
   color: white;
   padding: 0 5px;
-  -webkit-transition: .4s;
   transition: .4s;
 }
 
@@ -421,12 +415,10 @@ header .title button.btn_style {
 }
 
 .fifthy .subscribe form {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 .fifthy .subscribe form input {
@@ -450,19 +442,16 @@ header .title button.btn_style {
   border-top-right-radius: 5px;
   border: none;
   cursor: pointer;
-  -webkit-transition: .4s;
   transition: .4s;
 }
 
 .fifthy .subscribe form button span {
   color: white;
-  -webkit-transition: .4s;
   transition: .4s;
 }
 
 .fifthy .subscribe form button:hover span {
-  -webkit-transform: scale(1.8);
-          transform: scale(1.8);
+  transform: scale(1.8);
 }
 
 .fifthy .subscribe form button:hover {
@@ -493,32 +482,27 @@ header .title button.btn_style {
 }
 
 .seventh .green_box {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   margin-top: 50px;
   color: white;
   text-transform: uppercase;
 }
 
 .seventh .green_box .apple {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-right: 50px;
 }
 
 .seventh .green_box .play {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 footer .info {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 10px;
